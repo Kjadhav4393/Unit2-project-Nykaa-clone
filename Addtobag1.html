@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Addtobag.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/e9bb998391.js" crossorigin="anonymous"></script>
+    <title>Add to Bag</title>
+</head>
+<body>
+    <div id="FirstDiv"> 
+        <div> 
+            <i class="fas fa-mobile-alt fa-1x">    Get App   </i> 
+        </div>
+        <div> 
+            <i class="fas fa-map-marker-alt">  Store  </i>
+        </div>
+        <div> 
+            <i class="fas fa-gift"> Gift Card</i>
+        </div>
+        <div style="border-right: 2px solid transparent;"> 
+            <i class="far fa-question-circle"> Help </i>
+        </div>
+
+    </div>
+    <div id="SecondDiv"> 
+        <div>
+           <div style="height: 50%;"> 
+               <img height="100%" width="100%" src="https://cdn.freelogovectors.net/wp-content/uploads/2021/01/nykaa-logo-freelogovectors.net_.png" alt="">
+           </div>
+           <div> 
+               <a href="buy.html"> CATEGORIES </a>
+           </div>
+           <div> 
+            <a href="product.html"> BRANDS </a>
+           </div>
+           <div> 
+               <a href="product.html">NYKAA FASHION</a>
+           </div>
+           <div> 
+               <a href="buy.html">BEAUTY ADVICE</a>
+           </div>
+           <div> 
+               <a href="buy.html">NYKAA NETWORK</a>
+           </div>
+           <input style="width: 20%; height: 50%;" type="text"  placeholder="Search for products brands etc...">
+           <div> 
+               <a href="Signin.html"><i class="fas fa-user-alt">  Account  </i></a>
+            
+           </div>
+        </div>  
+    </div>
+    <div id="ThirdDiv"> 
+    <div>
+        <a href="product.html">Makeup</a>
+        <a href="buy.html">Skin</a>
+        <a href="product.html">Hair</a>
+        <a href="buy.html">Appliances</a>
+        <a href="buy.html">Personal care</a>
+        <a href="product.html">Natural</a>
+        <a href="">Mom & Baby</a>
+        <a href="">Health & Wellness</a>
+        <a href=""> Men</a>
+        <a href="">Fragrance</a>
+        <a href="">LUXE</a>
+    </div>
+    </div>
+    <div class="slideshow-container">
+
+        <!-- Full-width images with number and caption text -->
+        <div class="mySlides fade">
+         
+          <img src="https://images-static.nykaa.com/uploads/40e1e2c1-369a-4f8b-b401-a60a54fc622d.gif" height="100%" width="100%">
+          
+        </div>
+      
+        <div class="mySlides fade">
+          
+          <img src="https://images-static.nykaa.com/uploads/0c8cb4cb-8c20-4730-b02c-d1baa2c0f3fc.jpg"  height="100%" width="100%">
+         
+        </div>
+      
+        <div class="mySlides fade">
+          
+          <img src="https://images-static.nykaa.com/uploads/6c9784e3-2bb3-4801-a77c-f06e28035fe6.jpg"  height="100%" width="100%">
+         
+        </div>
+        <div class="mySlides fade">
+          
+            <img src="https://images-static.nykaa.com/uploads/6c9784e3-2bb3-4801-a77c-f06e28035fe6.jpg"  height="100%" width="100%">
+           
+        </div>
+      
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+      <br>
+      
+      <!-- The dots/circles -->
+      <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+      </div>
+    <div class="sort">
+        <select  name="" id="priceSort" onchange="handlePriceSort()">
+          <option value="">SORT BY PRICE</option>
+          <option value="low">Low to High</option>
+          <option value="high">High to Low</option>
+        </select>
+  
+  
+        <select  name="" id="nameSort" onchange="handleNameSort()">
+          <option value="">SORT BY NAME</option>
+          <option value="asc">Ascending</option>
+          <option value="dsc">Descending</option>
+        </select>
+  
+        <button class="countbutton"> </button>
+        <button class="cartcount"><a href="payment.html">Add to Cart</a></button> 
+      </div>
+      <div id="cont"></div>
+      <div class="EXPERIENCEOFMOBILE"> 
+        <div> 
+            <div> 
+                <div class="footertext"> 
+                    <P>GET SPECIAL DISCOUNT IN YOUR INBOX</P>
+                </div>
+                <div class="footerinput"> 
+                    <input type="text" placeholder="Your Email">
+                    <button>SEND</button>
+                </div>
+            </div>
+            <div> 
+               <div class="footertext"> 
+                   <p>EXPERIENCE THE NYKAA MOBILE APP</p>
+               </div>
+               <div> 
+                   <img src="https://www.uboric.com/wp-content/uploads/2020/08/google-play1.png" height="90%" width="80%" alt="">
+               </div>
+            </div>
+            <div> 
+               <div class="footertext"> 
+                   <p>FOR ANY HELP YOU MAY CALL US AT <br>
+                       1800-267-4444</p>
+               </div>
+               <div class="footertext"> 
+                   <p> 
+                       (Monday to Saturday, 8AM to 10PM and Sunday, 10AM to 7PM)
+                   </p>
+               </div>
+            </div>
+        </div>
+   </div>
+   <div class="footer"> 
+       <div> 
+           <div> 
+               <h2 style="font-style: italic;">NKYAA</h2>
+               <a href="">WHO ARE WE?</a>
+               <br/>
+               <a href="">CAREERS</a>
+               <br/>
+               <a href="">AUTHENTICITY</a>
+               <br/>
+               <a href="">PRESS</a>
+               <br/>
+               <a href="">TESTIMONIALS</a>
+               <br/>
+               <a href="">NYKAA CSR</a>
+               <br/>
+               <a href="">RESPONISIBLE DISCLOSURE</a>
+               <br/>
+               <a href="">INVESTOR RELATION</a>
+           </div>
+           <div> 
+               <h4> HELP </h4>
+               <a href=" ">CONTACT US</a>
+               <br/>
+               <a href="">FREQUENTLY ASKED QUESTIONS</a>
+               <br/>
+               <a href="">STORE LOCATOR</a>
+               <br/>
+               <a href="">CANCELLATION AND RETURN</a>
+               <br/>
+               <a href="">SHIPPING AND DELEVERY</a>
+               <br/>
+               <a href="">SELL ON NYKAA</a>
+           </div>
+           <div> 
+               <h4> INSPIRE ME </h4>
+               <a href=" ">BEAUTY BOOK</a>
+               <br/>
+               <a href="">NYKAA TV</a>
+               <br/>
+               <a href="">NYKAA NETWORK</a>
+               <br/>
+               <a href="">BUYING GUIDES</a>
+           </div>
+           <div> 
+               <h4> QUICK LINKS </h4>
+               <a href=" ">OFFER ZONE</a>
+               <br/>
+               <a href="">NEW LAUNCHES</a>
+               <br/>
+               <a href="">NYKAA MAN</a>
+               <br/>
+               <a href="">NYKAA FASHION</a>
+               <br/>
+               <a href="">NYKAA PRO</a>
+               <br/>
+               <a href="">BEAUTY AWARDS WINNERS</a>
+               <br/>
+               <a href="">SITMAP</a>
+           </div>
+           <div style="line-height: 10px;"> 
+               <h4> TOP CATEGORIES </h4>
+               <a href=" ">MAKEUP</a>
+               <br/>
+               <a href="">SKIN</a>
+               <br/>
+               <a href="">HAIR</a>
+               <br/>
+               <a href="">PERSONAL CARE</a>
+               <br/>
+               <a href="">APPLIANCE</a>
+               <br/>
+               <a href="">MOM AND BABY</a>
+               <br/>
+               <a href="">WELLNESS</a>
+               <br/>
+               <a href="">FRAGRANCE</a>
+               <br/>
+               <a href=""> LUXE </a>
+           </div>
+       </div>
+   </div>
+   <div class="belowfooter"> 
+       <div> 
+           <div class="trucklogo"> 
+               <div class="imgdiv"> 
+                   <img src="https://adn-static2.nykaa.com/media/wysiwyg/2021/Free-shipping.svg" alt="">
+               </div>
+               <div class="imgdivtext"> 
+                   <p style="margin-top: 0px; font-weight: bold;">FREE SHIPPING</p>
+                   <hr>
+                   <p style="margin-top: 0px; color:#194655;">for orders above INR 499</p>
+               </div>
+           </div>
+           <div class="trucklogo">
+               <div class="imgdiv"> 
+                   <img src="https://adn-static2.nykaa.com/media/wysiwyg/2021/return_accepted.svg" alt="">
+               </div>
+               <div class="imgdivtext"> 
+                   <p style="margin-top: 0px; font-weight: bold;">EASY RETURN</p>
+                   <hr>
+                   <p style="margin-top: 0px; color:#194655;">15 DAYS return for most products</p>
+               </div>
+           </div>
+           <div class="trucklogo"> 
+               <div class="imgdiv"> 
+                   <img src="https://adn-static2.nykaa.com/media/wysiwyg/2021/Authenticity.svg" alt="">
+               </div>
+               <div class="imgdivtext"> 
+                   <p style="margin-top: 0px; font-weight: bold;">AUTHENTIC</p>
+                   <hr>
+                   <p style="margin-top: 0px; color:#194655;">source directly from brands</p>
+               </div>
+           </div>
+           <div class="trucklogo"> 
+               <div class="imgdiv"> 
+                   <img src="https://adn-static2.nykaa.com/media/wysiwyg/2021/Brands.svg" alt="">
+               </div>
+               <div class="imgdivtext"> 
+                   <p style="margin-top: 0px; font-weight: bold;">2400+BRANDS</p>
+                   <hr>
+                   <p style="margin-top: 0px; color:#194655;">well culrated 1.9 lakh+product</p>
+               </div>
+           </div>
+           <div class="showlove"> 
+               <P style="font-size: 15px; font-weight: 600; margin-left: 20px;">SHOW US SOME LOVE <i class="fas fa-heart" style="color: #fc2779;"></i> ON SOCIAL MEDIA</P>
+               <!-- <hr> -->
+               <a href="facebook.com"> <i class="fab fa-facebook-square fa-2x" style="margin-left: 50px;"></i></a>
+               <i class="fab fa-twitter-square fa-2x" style="margin-left: 20px;"></i>
+               <i class="fab fa-instagram-square fa-2x" style="margin-left: 20px;"></i>
+               <i class="fab fa-youtube-square fa-2x" style="margin-left: 20px;"></i>
+           </div>
+       </div>
+   </div>
+   <div class="lastdiv"> 
+          <div> 
+              <a href="">TERMS AND CONDITION</a>
+              <a href="">SHIPPING POLICY</a>
+              <a href="">CANCELLATION POLICY</a>
+              <a href="">PRIVACYPOLICY</a>
+              <br>
+              <p>© 2021 Nykaa E-Retail Pvt. Ltd. All Rights Reserved</p>
+          </div>
+   </div>
+     
+</body>
+</html>
+<script>
+   var slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+
+
+
+
+
+
+
+
+
+    var products = JSON.parse(localStorage.getItem("shoppingItems"));
+    var cart = JSON.parse(localStorage.getItem("cartItems")) || [];
+    console.log(cart.length);
+    document.querySelector("button").textContent = cart.length;
+    displayItem(products);
+  
+    function handlePriceSort() {
+      var selected = document.querySelector("#priceSort").value;
+      console.log(selected);
+      if (selected == "high") {
+        products.sort(function (a, b) {
+          return Number(b.price) - Number(a.price);
+        });
+      }
+      if (selected == "low") {
+        products.sort(function (a, b) {
+          return Number(a.price) - Number(b.price);
+        });
+      }
+      //console.log(products);
+      displayItem(products);
+    }
+  
+    function handleNameSort() {
+      var selected = document.querySelector("#nameSort").value;
+      console.log(selected);
+  
+      if (selected == "asc") {
+        products.sort(function (a, b) {
+          if (a.name > b.name) return 1;
+          if (a.name < b.name) return -1;
+          return 0;
+        });
+      }
+      if (selected == "dsc") {
+        products.sort(function (a, b) {
+          if (a.name > b.name) return -1;
+          if (a.name < b.name) return 1;
+          return 0;
+        });
+      }
+      displayItem(products);
+    }
+  
+    function displayItem(products) {
+      document.querySelector("#cont").textContent = "";
+      products.map(function (elem) {
+        var div = document.createElement("div");
+        var div1 = document.createElement("div")
+        // div1.style.border="1px solid black"
+        div1.style.height="60%"
+        var img = document.createElement("img");
+        img.setAttribute("src", elem.image);
+  
+        var h4 = document.createElement("h4");
+        h4.textContent = elem.name;
+  
+        var price = document.createElement("p");
+        price.textContent = elem.price;
+  
+        var button = document.createElement("button");
+        button.textContent = "Add To Bag";
+        button.addEventListener("click", function () {
+          console.log(elem);
+          addToCart(elem);
+        });
+  
+        div.append(div1, h4, price, button);
+        div1.append(img)
+        document.querySelector("#cont").append(div);
+      });
+    }
+  
+    function addToCart(elem) {
+      console.log(elem);
+      cart.push(elem);
+      localStorage.setItem("cartItems", JSON.stringify(cart));
+    }
+  
+  </script>

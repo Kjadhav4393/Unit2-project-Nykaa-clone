@@ -1,0 +1,704 @@
+body{
+    background-color: #f3f3f3;
+    /* border: 1px solid darkblue; */
+    margin: 0px;
+}
+
+#FirstDiv{
+    width: 100%;
+    height: 30px;
+    border: 1px solid transparent;
+    /* background-color: #ffc4d3; */
+    background-image: url(https://previews.123rf.com/images/efetova/efetova1810/efetova181000146/114432005-golden-sparkles-on-pink-pastel-trendy-background-festive-backdrop-for-your-projects-.jpg);
+    background-size: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-end;
+    /* position: fixed; */
+}
+#FirstDiv > div{
+    height: 80%;
+    width: 8%;
+    margin-top: 2px;
+    /* border: 1px solid black; */
+    border-right: 2px solid black;
+    /* align-items: center; */
+    font-family: 'Source Sans Pro', sans-serif;
+    align-content: center;
+    text-align: center;
+    /* position: fixed; */
+}
+
+
+#SecondDiv{
+    width: 100%;
+    border: 1px solid transparent;
+    background-color: #ffffff;
+    /* position: fixed; */
+    
+}
+#SecondDiv > div{
+    width: 80%;
+    height: 80px;
+    margin: auto;
+    /* border: 1px solid black; */
+    background-color: #ffffff;
+    margin-top: 0.5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#SecondDiv > div  > div{
+    /* border: 1px solid red; */
+    width: 10%;
+    height: 30%;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+#SecondDiv > div  > div > a{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    
+}
+#ThirdDiv{
+    width: 100%;
+    height: 50px;
+    /* border: 1px solid black; */
+    border-top: 1px solid #878692;
+    background-color: #ffffff;
+    /* position: fixed; */
+}
+#ThirdDiv > div {
+    height: 100%;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#ThirdDiv > div >a{
+    font-weight: bold;
+    color: #878692;
+    text-decoration: none;
+}
+#ThirdDiv > div >a:hover{
+    color: #fc2779;
+    border-bottom: 3px solid #fc2779;
+}
+.SlideShow-Container{
+    width: 100%;
+    height: 400px;
+    /* border: 1px solid red; */
+    margin-top: 2px;
+
+}
+.SlideShow-Container > img{
+    height: 100%;
+    width: 100%;
+
+}
+/* Slideshow container */
+.slideshow-container {
+    width: 100%;
+    height: 400px;
+    /* border: 1px solid black; */
+    margin: auto;
+    position: relative;
+    
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    /* display: none; */
+    width: 100%;
+    height: 400px;
+    /* border: 1px solid black; */
+    margin: auto;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  Caption text */
+  .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  } */
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+.Soptlight{
+    height: 50px;
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 1px solid red; */
+    justify-content: space-evenly;  
+    background-color: #ffffff;
+}
+
+.Soptlight > div > a{
+    text-decoration: none;
+    padding: 0%;
+    color: black;
+} 
+.Soptlight > div:hover {
+    border-bottom: 3px solid #fc2779;
+    font-weight: bold;
+    color: #fc2779;
+}
+.Soptlight > div > a > p:hover{
+    color: #fc2779;
+    font-weight: bold;
+    /* position: fixed; */
+}
+.BigSoptlight{
+    width: 100%;
+    height: 1500px;
+    margin-top: 20px;
+    background-color: #f7f7f7;
+    border: 1px solid transparent;
+}
+#textspotlight{
+     width: 40%;
+     height: 50px;
+     margin: auto;
+     margin-top: 10px;
+     /* border: 1px solid red; */
+     text-align: center;
+     font-size: 25px;
+}
+#boxesdiv{
+    height: 90%;
+    width: 80%;
+    margin: auto;
+    /* border: 1px solid black; */
+    display: grid;
+    grid-template-columns: 49% 49%;
+    grid-template-rows:23.5% 23.5% 23.5% 23.5%;
+    grid-gap: 2%;
+}
+#boxesdiv > div:nth-child(1){
+  background-image: url(https://images-static.nykaa.com/tr:w-640,c-at_max/uploads/9c94547c-0621-4a67-85c8-7572d633fb02.gif);
+  background-size: cover;
+  /* border: 1px solid red; */
+}
+#boxesdiv > div:nth-child(2){
+    background-image: url(https://images-static.nykaa.com/tr:w-640,c-at_max/uploads/160cc8ae-d906-4139-9a45-8a0aeabbc43e.jpg);
+    background-size: cover;
+}
+#boxesdiv > div:nth-child(3){
+    background-image: url(https://images-static.nykaa.com/tr:w-640,c-at_max/uploads/e41caaba-03af-4f4f-9990-fcb9819c3459.jpg);
+    background-size: cover;
+}
+#boxesdiv > div:nth-child(4){
+    background-image: url(https://images-static.nykaa.com/tr:w-640,c-at_max/uploads/9c2251e5-77c2-48db-9361-23954fc359f9.jpg);
+    background-size: cover;
+}
+#boxesdiv > div:nth-child(5){
+    background-image: url(https://images-static.nykaa.com/tr:w-640,c-at_max/uploads/e49942b0-57e3-47c6-94bc-ab22a4c18c4c.jpg);
+    background-size: cover;
+}
+#boxesdiv > div:nth-child(6){
+    background-image: url(https://images-static.nykaa.com/tr:w-640,c-at_max/uploads/22b1df9d-230b-4c55-b80b-0b65355e057e.jpg);
+    background-size: cover;
+}
+#boxesdiv > div:nth-child(7){
+    background-image: url(https://images-static.nykaa.com/tr:w-640,c-at_max/uploads/17c0dfb3-bb51-4168-8e2d-fc38ec505acf.jpg);
+    background-size: cover;
+}
+#boxesdiv > div:nth-child(8){
+    background-image: url(https://images-static.nykaa.com/tr:w-640,c-at_max/uploads/65db3ed2-ab8e-4eef-8737-f237fb0c04bd.jpg);
+    background-size: cover;
+
+}
+#boxesdiv > div:hover{
+     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.intobox{
+    height: 20%;
+    width: 80%;
+    margin: auto;
+    margin-top: 230px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    text-align: center;
+}
+.intobox > a{
+    display: block;
+    margin-top: 20px;
+    color: #fc2779;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.intobox2{
+    height: 25%;
+    margin-top: 220px;
+}
+
+.intobox2 > a{
+    display: block;
+    margin-top: 20px;
+    color: #fc2779;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    line-height: 5px;
+}
+.Bigtopoffers{
+    height: 300px;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    background-color: #f7f7f7;
+    /* border: 1px solid black; */
+}
+#toptext{
+    height: 20%;
+    width: 100%;
+    font-size: 25px;
+    /* text-align: center; */
+    border: 1px solid transparent;
+}
+.toptextsubdiv{
+    height: 75%;
+    width: 80%;
+    margin: auto;
+    margin-top: 10px;
+    /* border: 1px solid teal; */
+    display: grid;
+    grid-template-columns: 23% 23% 23% 23%;
+    grid-template-rows: 100%;
+    justify-content: space-between;
+}
+
+.toptextsubdiv > div > img{
+    height: 100%;
+    width: 100%;
+}
+.toptextsubdiv > div:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.alloffers{
+    height: 400px;
+    width: 100%;
+    /* border: 1px solid red; */
+    background-color: #f7f7f7;
+}
+.alloffers > div {
+    height: 12%;
+    border: 1px solid transparent ;
+    text-align: center;
+    font-size: 25px;
+}
+.alloffers>div:nth-child(3){
+    /* border: 1px solid black; */
+    height: 69%;
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+}
+.textcontent{
+    height: 1180px;
+    width: 100%;
+    margin-top: 5%;
+    border: 1px solid transparent;
+    background-color: #ffffff;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.textcontent > div {
+    height: 100%;
+    width: 80%;
+    margin: auto;
+    /* border: 1px solid red; */
+    text-align: justify;
+    font-size: 16px;
+    
+}
+.textcontent > div > p > a{
+    text-decoration: none;
+    color: #fc2779;
+}
+
+.EXPERIENCEOFMOBILE {
+    height: 150px;
+    width: 100%;
+    background-color: #3f414d;  
+    border: 1px solid transparent;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.EXPERIENCEOFMOBILE > div {
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    /* border: 1px solid white; */
+    display: grid;
+    grid-template-columns: 33% 30% 33%;
+    grid-template-rows: 100%;
+    justify-content: space-between;
+}
+
+.EXPERIENCEOFMOBILE > div > div > div{
+    border: 1px solid transparent;
+    width: 80%;
+    height: 30%;
+    margin: auto;
+    margin-top: 2%;
+}
+.footertext > p{
+    color: #fff;
+    font-weight: bold;
+    font-size: 14px;
+}
+.footerinput > input {
+    padding: 2%;
+    width: 60%;
+    margin-top: 10px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #fff;
+    color: #fff;
+    font-weight: bold;
+}
+.footerinput > input::placeholder{
+    color: #fff;
+}
+.footerinput > button{
+    width: 30%;
+    padding: 2%;
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    font-weight: bold;
+}
+.footer{
+    height: 400px;
+    width: 100%;
+    background-color: #8c8d94;
+    border: 1px solid transparent;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.footer > div {
+    width: 80%;
+    height: 80%;
+    margin: auto;
+    margin-top: 2%;
+    /* border: 1px solid red; */
+    display: grid;
+    grid-template-columns:repeat(5, 18%);
+    grid-template-rows: 100%;
+    justify-content: space-between;
+}
+
+.footer > div > div >h2,
+.footer > div > div >h4{
+    color: #ffffff;
+}
+
+.footer > div > div >a{
+    color: #ffffff;
+    line-height: 30px;
+    text-decoration: none;
+    font-size: 14px;
+}
+.footer > div > div >a:hover{
+    color: #fc2779;
+}
+.belowfooter{
+    height: 200px;
+    width: 100%;
+    border: 1px solid transparent;
+    background-color: #f3f3f3;
+}
+.belowfooter > div {
+    height: 100%;
+    width: 80%;
+    margin: auto;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.trucklogo{
+    height: 70%;
+    width: 18%;
+    /* border: 1px solid black; */
+    margin-left: 5px;
+    display: flex;
+}
+.imgdiv {
+        height: 40%;
+        width: 30%;
+        /* border: 1px solid green;   */
+        border-radius: 50px;  
+}
+.imgdiv > img{
+    height: 100%;
+    width: 100%;
+}
+.imgdivtext{
+    width: 69%;
+    height: 70%;
+    /* border: 1px solid black; */
+    /* margin-left: 5px; */
+}
+.showlove{
+    height: 70%;
+    width: 25%;
+    /* border: 1px solid red; */
+    margin-left: 5px;
+    text-align: start;
+}
+.lastdiv{
+    height: 80px;
+    width: 100%;
+    background-color: #fc2779;
+    border: 1px solid transparent;
+    text-align: center;
+}
+.lastdiv > div {
+    height: 65%;
+    width: 60%;
+    margin: auto;
+    margin-top: 1%;
+    /* border: 1px solid black; */
+}
+.lastdiv > div > a {
+    color: #f7f7f7;
+    font-weight: bolder;
+    text-decoration: none;
+    padding: 3%;
+}
+.lastdiv > div > p{
+    color: #f7f7f7;
+}
+
+@media only screen and (min-width: 400px) and (max-width: 775px) {
+    #FirstDiv{
+        justify-content: space-between;
+        height: 50px;
+    }
+    #FirstDiv > div {
+        width: 20%;
+        align-items: center;
+    }
+    #SecondDiv > div{
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    #SecondDiv > div  > div > a{
+        font-weight: 600;  
+    }
+    #ThirdDiv > div {
+        width: 100%;
+        margin: auto;
+        justify-content: space-between;
+        border: 1px solid black;
+    }
+    #ThirdDiv > div > a:nth-child(7),
+    #ThirdDiv > div > a:nth-child(8){
+        display: none;
+    }
+    #boxesdiv{
+        width: 100%;
+        /* height: 800px; */
+        display: grid;
+    grid-template-columns: 49% 49%;
+    grid-template-rows:23.5% 23.5% 23.5% 23.5%;
+    grid-gap: 2%;
+    }
+    .intobox > a{
+        font-size: 15px;
+    }
+    .intobox2 > a{
+        font-size: 15px;
+    }
+    .toptextsubdiv{
+        width: 100%;
+    }
+    .alloffers>div:nth-child(3){
+        width: 100%;
+    }
+    .textcontent{
+        text-align: center;
+    }
+    .textcontent > div{
+        width: 100%;
+        overflow: scroll;
+    }
+    .EXPERIENCEOFMOBILE > div{
+        width: 100%;
+    }
+    .belowfooter > div{
+        width: 100%;
+    }
+    .trucklogo{
+        margin-left:0;
+        width: 25%;
+    }
+    .showlove{
+        display: none;
+    }
+    .lastdiv > div{
+        width: 100%;
+    }
+    .lastdiv > div > a{
+        font-weight: bold;
+        padding: 2%;
+    }
+  }
+  @media only screen and (min-width: 0px) and (max-width: 375px) {
+    #FirstDiv{
+        justify-content: space-between;
+        height: 50px;
+    }
+    #FirstDiv > div {
+        width: 20%;
+        align-items: center;
+    }
+    #SecondDiv > div{
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    #SecondDiv > div  > div > a{
+        font-weight: 600;  
+    }
+    #ThirdDiv > div {
+        width: 100%;
+        margin: auto;
+        justify-content: space-between;
+        border: 1px solid black;
+    }
+    #ThirdDiv > div > a:nth-child(7),
+    #ThirdDiv > div > a:nth-child(8){
+        display: none;
+    }
+    #boxesdiv{
+        width: 100%;
+        /* height: 800px; */
+        display: grid;
+    grid-template-columns: 49% 49%;
+    grid-template-rows:23.5% 23.5% 23.5% 23.5%;
+    grid-gap: 2%;
+    }
+    .intobox > a{
+        font-size: 15px;
+    }
+    .intobox2 > a{
+        font-size: 15px;
+    }
+    .toptextsubdiv{
+        width: 100%;
+    }
+    .alloffers>div:nth-child(3){
+        width: 100%;
+    }
+    .textcontent{
+        text-align: center;
+    }
+    .textcontent > div{
+        width: 100%;
+        overflow: scroll;
+    }
+    .EXPERIENCEOFMOBILE > div{
+        width: 100%;
+    }
+    .belowfooter > div{
+        width: 100%;
+    }
+    .trucklogo{
+        margin-left:0;
+        width: 25%;
+    }
+    .showlove{
+        display: none;
+    }
+    .lastdiv > div{
+        width: 100%;
+    }
+    .lastdiv > div > a{
+        font-weight: bold;
+        padding: 2%;
+    }
+  }

@@ -1,0 +1,530 @@
+body{
+    background-color: #f3f3f3;
+    /* border: 1px solid darkblue; */
+    margin: 0px;
+}
+
+#FirstDiv{
+    width: 100%;
+    height: 30px;
+    border: 1px solid transparent;
+    /* background-color: #ffc4d3; */
+    background-image: url(https://ak.picdn.net/shutterstock/videos/31553326/thumb/1.jpg);
+    background-size: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    /* position: fixed; */
+}
+#FirstDiv > div{
+    height: 80%;
+    width: 8%;
+    margin-top: 2px;
+    /* border: 1px solid black; */
+    border-right: 2px solid black;
+    /* align-items: center; */
+    font-family: 'Source Sans Pro', sans-serif;
+    align-content: center;
+    text-align: center;
+}
+
+/* #FirstDiv > div > i{
+    margin-top: 5%;
+    margin-left: 20px;
+} */
+#SecondDiv{
+    width: 100%;
+    border: 1px solid transparent;
+    background-color: #ffffff;
+    /* position: fixed; */
+    
+}
+#SecondDiv > div{
+    width: 80%;
+    height: 80px;
+    margin: auto;
+    /* border: 1px solid black; */
+    background-color: #ffffff;
+    margin-top: 0.5px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#SecondDiv > div  > div{
+    /* border: 1px solid red; */
+    width: 10%;
+    height: 30%;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+#SecondDiv > div  > div > a{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    
+}
+#ThirdDiv{
+    width: 100%;
+    height: 50px;
+    /* border: 1px solid black; */
+    border-top: 1px solid #878692;
+    background-color: #ffffff;
+}
+#ThirdDiv > div {
+    height: 100%;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#ThirdDiv > div >a{
+    font-weight: bold;
+    color: #878692;
+    text-decoration: none;
+}
+#ThirdDiv > div >a:hover{
+    color: #fc2779;
+    border-bottom: 3px solid #fc2779;
+}
+.SlideShow-Container{
+    width: 100%;
+    height: 400px;
+    /* border: 1px solid red; */
+    margin-top: 2px;
+
+}
+.SlideShow-Container > img{
+    height: 100%;
+    width: 100%;
+
+}
+/* Slideshow container */
+ .slideshow-container {
+    width: 100%;
+    height: 400px;
+    /* border: 1px solid black; */
+    margin: auto;
+    position: relative;
+    
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+    width: 100%;
+    height: 400px;
+    /* border: 1px solid black; */
+    margin: auto;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  Caption text */
+  .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  } */
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+.Soptlight{
+    height: 50px;
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+    /* border: 1px solid red; */
+    justify-content: space-evenly;  
+    background-color: #ffffff;
+}
+
+.Soptlight > div > a{
+    text-decoration: none;
+    padding: 0%;
+    color: black;
+} 
+.Soptlight > div:hover {
+    border-bottom: 3px solid #fc2779;
+    font-weight: bold;
+    color: #fc2779;
+}
+.Soptlight > div > a > p:hover{
+    color: #fc2779;
+    font-weight: bold;
+    /* position: fixed; */
+}
+
+/* <---------------------------------------------------------------------------> */
+
+.productdiv{
+    height: 1700px;
+    width: 80%;
+    margin: auto;
+    margin-top: 10px;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+}
+.fixeddiv{
+    height: 500px;
+    width: 23%;
+    /* border: 1px solid black; */
+    /* position: fixed; */
+}
+.scrolldiv{
+    height: 1700px;
+    width: 75%;
+    margin-left: 19px;
+    /* border: 1px solid green; */
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.scrolldiv > div {
+    position: relative;
+    height: 400px;
+    width: 30%;
+    /* border: 1px solid red; */
+    margin: 14px;
+    margin-top: 10px;
+    text-align: center;
+    line-height: 16px;
+    background-color: #ffffff;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+.scrolldivimg > img {
+    height: 60%;
+    width: 90%;
+    padding: 2%;
+    
+}
+.stardiv{
+    height: 4.5%;
+    width: 40%;
+    margin: auto;
+    /* border: 1px solid red; */
+}
+.stardiv > img {
+    height: 100%;
+    width: 100%;
+}
+.mrptext{
+    color: gray;
+}
+.Shadestext{
+    color: gray;
+    font-size: 12px;
+}
+.fixeddiv > div {
+    height: 10%;
+    width: 100%;
+    /* border: 1px solid red; */
+}
+.selectetab {
+    height: 100%;
+    width: 100%;
+    border: 0.5px solid gray;
+    font-size: 15px;
+    /* font-weight: bold; */
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #ffffff;
+}
+.newbox{
+    height: 620px;
+    width: 80%;
+    margin: auto;
+    /* border: 1px solid red; */
+}
+.newbox > div {
+    height: 48%;
+    width: 100%;
+    /* border: 1px solid black; */
+}
+.newbox > div > img{
+    height: 100%;
+    width: 100%;
+}
+.newbox > div:hover{
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.EXPERIENCEOFMOBILE {
+    height: 150px;
+    width: 100%;
+    margin-top: 5px;
+    background-color: #3f414d;  
+    border: 1px solid transparent;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.EXPERIENCEOFMOBILE > div {
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    /* border: 1px solid white; */
+    display: grid;
+    grid-template-columns: 33% 30% 33%;
+    grid-template-rows: 100%;
+    justify-content: space-between;
+}
+
+.EXPERIENCEOFMOBILE > div > div > div{
+    border: 1px solid transparent;
+    width: 80%;
+    height: 30%;
+    margin: auto;
+    margin-top: 2%;
+}
+.footertext > p{
+    color: #fff;
+    font-weight: bold;
+    font-size: 14px;
+}
+.footerinput > input {
+    padding: 2%;
+    width: 60%;
+    margin-top: 10px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #fff;
+    color: #fff;
+    font-weight: bold;
+}
+.footerinput > input::placeholder{
+    color: #fff;
+}
+.footerinput > button{
+    width: 30%;
+    padding: 2%;
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    font-weight: bold;
+}
+.footer{
+    height: 400px;
+    width: 100%;
+    background-color: #8c8d94;
+    border: 1px solid transparent;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.footer > div {
+    width: 80%;
+    height: 80%;
+    margin: auto;
+    margin-top: 2%;
+    /* border: 1px solid red; */
+    display: grid;
+    grid-template-columns:repeat(5, 18%);
+    grid-template-rows: 100%;
+    justify-content: space-between;
+}
+
+.footer > div > div >h2,
+.footer > div > div >h4{
+    color: #ffffff;
+}
+
+.footer > div > div >a{
+    color: #ffffff;
+    line-height: 30px;
+    text-decoration: none;
+    font-size: 14px;
+}
+.footer > div > div >a:hover{
+    color: #fc2779;
+}
+.belowfooter{
+    height: 200px;
+    width: 100%;
+    border: 1px solid transparent;
+    background-color: #f3f3f3;
+}
+.belowfooter > div {
+    height: 100%;
+    width: 80%;
+    margin: auto;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.trucklogo{
+    height: 70%;
+    width: 18%;
+    /* border: 1px solid black; */
+    margin-left: 5px;
+    display: flex;
+}
+.imgdiv {
+        height: 40%;
+        width: 30%;
+        /* border: 1px solid green;   */
+        border-radius: 50px;  
+}
+.imgdiv > img{
+    height: 100%;
+    width: 100%;
+}
+.imgdivtext{
+    width: 69%;
+    height: 70%;
+    /* border: 1px solid black; */
+    /* margin-left: 5px; */
+}
+.showlove{
+    height: 70%;
+    width: 25%;
+    /* border: 1px solid red; */
+    margin-left: 5px;
+    text-align: start;
+}
+.lastdiv{
+    height: 80px;
+    width: 100%;
+    background-color: #fc2779;
+    border: 1px solid transparent;
+    text-align: center;
+}
+.lastdiv > div {
+    height: 50%;
+    width: 60%;
+    margin: auto;
+    margin-top: 1%;
+    /* border: 1px solid black; */
+}
+.lastdiv > div > a {
+    color: #f7f7f7;
+    font-weight: bolder;
+    text-decoration: none;
+    padding: 3%;
+}
+.lastdiv > div > p{
+    color: #f7f7f7;
+}
+
+/* <-----------------addtobag--------------------------------------------------> */
+
+
+.heartdiv{
+    width: 25%;
+    height: 100%;
+    /* border: 1px solid red; */
+    border-top: 1px solid gray;
+    align-items: center;
+}
+.heartdiv > div {
+    /* border: 1px solid red; */
+    margin-top: 12px;
+}
+.addtokartdiv{
+    width: 75%;
+    height: 100%;
+    margin-right: 0px;
+    background-color: #fc2779;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    word-spacing: 5px;
+    font-weight: bold;
+    /* border: 1px solid red; */
+}
+.overlay {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1;
+  width: 100%;
+  height: 50px;
+  transition:0.5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  background-color: #ffffff;
+  /* border: 1px solid red; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.scrolldivimg:hover .overlay {
+  opacity: 1;
+}
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+* {box-sizing: border-box}
