@@ -1,7 +1,5 @@
 # Unit2-project-Nykaa-clone
 <p> 
-I was given the problem statement to make a clone of Nykaa, Nykaa is an Indian E-commerce company that sells beauty, wellness, and fashion products.
-
 Features:
 -payment gateway
 -Add to cart
